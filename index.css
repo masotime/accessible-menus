@@ -1,0 +1,103 @@
+#st1 {
+  padding: .5em;
+  border: 1px solid black;
+  height: 400px;
+  width: 70%;
+  font-size: medium;
+  font-family: sans-serif;
+}
+ul.menubar {
+  margin: 0 !important;
+  padding: 0 .25em !important;
+  list-style: none !important;
+   font-size: 100% !important;
+  height: 1.85em;
+  width: 20em;
+  border: 1px solid black;
+  background: #ccc;
+}
+ul.menubar li {
+  float: left;
+  display: inline; position: relative;
+  margin: 0;
+  padding: .25em .35em;
+  height: 1.25em;
+}
+ul.menu {
+  position: absolute;
+  left: 0;
+  top: 1.75em;
+  display: none;
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-weight: normal !important;
+   font-size: 100% !important;
+  border: 1px solid black;
+  background-color: #ccc;
+  width: 8.5em;
+}
+ul.menu li {
+  float: none;
+  display: block;
+  white-space: nowrap;
+  padding: 2px 1em;
+  color: black;
+}
+
+li.separator {
+  margin: 0;
+  margin-bottom: 4px !important;
+  height: 2px !important;
+  border-bottom: 1px solid black;
+}
+
+li.checked {
+  font-weight: bold;
+  background-image: url('http://www.oaa-accessibility.org/media/examples/images/dot.png');
+  background-repeat: no-repeat;
+  background-position: 5px 10px;
+}
+
+.menu-hover {
+  background-color: #700 !important;
+  color: white !important;
+}
+
+.menu-hover-checked {
+  background-color: #700 !important;
+  color: white !important;
+  background-image: url('http://www.oaa-accessibility.org/media/examples/images/dot-selected.png') !important;
+}
+
+.menu-focus {
+  background-color: black;
+  font-weight: bold;
+  color: white !important;
+}
+
+li.menu-focus-checked {
+  background-color: black;
+  font-weight: bold;
+  color: white !important;
+  background-image: url('http://www.oaa-accessibility.org/media/examples/images/dot-selected.png') !important;
+}
+.hidden {
+   position: absolute;
+   left: -200em;
+   top: -20em;
+}
+
+
+/*
+* Text area styles
+*/
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+.underline {
+  text-decoration: underline;
+}
